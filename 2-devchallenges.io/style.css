@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+
+    <link rel="icon" href="devchallenges.png" />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Devchallenges</title>
+
+    <style>
+     body {
+       background-color:#333333;
+       position:relative;
+       
+     }
+     .container {
+       width:1440px;
+       height:1489px;
+       background-color: #FFFFFF;
+       padding:0px;
+       }
+     h1 {
+       top:110px;
+       left:243px;
+       position:absolute;
+       font-size:36px;
+       font-family:serif;
+       color:#000000;
+     }
+     .para1 {
+       top:110px;
+       left:736px;
+       position:absolute;
+       font-size:18px;
+     }
+     .para2 {
+      width:439px;
+      height:87px;
+       top:147px;
+       left:736px;
+       position:absolute;
+       font-size:18px;
+     }
+     div {
+       position:absolute;
+       
+     }
+     #first {
+       width:238px;
+       height:426px;
+       top:244px;
+       left:240px;
+       position:absolute;
+       
+     }
+     #second {
+      width:300px;
+       height:460px;
+      top:396px;
+       left:534px;
+       position:absolute;
+       
+     }
+     #three {
+      width:300px;
+       height:390px;
+      top:330px;
+       left:863px;
+       position:absolute;
+       
+     }
+     #four {
+      width:270px;
+       height:460px;
+      top:760px;
+       left:241px;
+       position:absolute;
+       
+     }
+     #five {
+      width:270px;
+       height:360px;
+      top:944px;
+       left:534px;
+       position:absolute;
+       
+     }
+     #six {
+      width:330px; 
+      height:440px;
+      top:796px;
+       left:864px;
+       position:absolute;
+       
+     }
+     .container {
+       top:50px;
+       left:50px;
+     }
+     .name {
+
+     }
+     #div1 {
+       top:670px;
+       left:250px;
+     }
+     #div2 {
+       top:860px;
+       left:530px;
+     }
+     #div3 {
+       top:720px;
+       left:870px;
+     }
+     #div4 {
+       top:1220px;
+       left:250px;
+     }
+     #div5 {
+       top:1310px;
+       left:530px;
+     }
+     #div6 {
+       top:1240px;
+       left:870px;
+     }
+    </style>
+   <body>
+     <p>Team</p>
+    <div class="container">
+    <h1>The Creative crew</h1>
+    <div class="para1">
+    <h4>WHO WE ARE</h4>
+    </div>
+    <div class="para2">
+     <p>We are team of creatively diveres driven innovitative individual working in various location form the world </p>
+     </div>
+     </div>
+     <div>
+    <img id="first" src="photo1.png" alt="Bill mahoney">
+    <img id="second"src="photo2.png" alt="saba cabrera">
+    <img id="three"src="photo3.png" alt="shae le">
+    <img id="four"src="photo4.png" alt="skylah lu">
+    <img id="five"src="photo5.png" alt="griff Richarda">
+    <img id="six"src="photo6.png" alt="stan john">
+    </div>
+     <div class="name">
+       <div id="div1">Billmahoney</div>
+       <div id="div2">sabacabrera</div>
+       <div id="div3">shaele</div>
+       <div id="div4">skylahlu</div>
+       <div id="div5">griffRicharda</div>
+       <div id="div6">stanjohn</div>
+       </div>
+</div>
+  </div>
+  
+ </body>
+   </head>
+       
