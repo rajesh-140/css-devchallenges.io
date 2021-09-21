@@ -1,2 +1,2 @@
 # css-devchallenges.io
-https://quizzical-kepler-3b8c4f.netlify.app
+https://sad-pare-98e48c.netlify.app
