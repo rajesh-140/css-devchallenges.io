@@ -1,0 +1,48 @@
+   <html>
+      <head>
+    <title>Devchallenges</title>
+    <style>
+    
+img {
+  width:100%;
+}
+.collection-grid {
+  margin-top: 32px;
+
+  display: grid;
+  
+  grid-template-columns: repeat(4, 1fr);
+  gap: 80px;
+
+  align-items: center;
+}
+@media (max-width:1024px){
+   .collection-grid {
+    grid-template-columns: repeat(3, 1fr); 
+    gap:60px;
+   }
+   @media (max-width:768px){
+  .collection-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap:40px;
+  }
+
+@media (max-width:500px){
+  .collection-grid {
+    grid-template-columns: repeat(1,1fr);
+  }
+}
+    </style>
+  </head>
+  <body>
+    <div class="collection-grid">
+      <img src="photo1.png">
+      <img src="photo2.png">
+      <img src="photo3.png">
+      <img src="photo4.png">
+      <img src="photo5.png">
+      <img src="photo6.png">
+    </div>
+    </body>
+    </html>
+    
