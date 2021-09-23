@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>media queries</title>
+    </head>
+    <style>
+      h1 {
+          margin-top: 10px;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 40px;
+      }
+      p {
+          font-size: 16px;
+          font-weight: bold;
+      }
+      img {
+          width:100%;
+      }
+      .collection-grid {
+          margin-top: 40px;
+          display: grid;
+          grid-template-columns: repeat(5, 1fr);
+          gap:80px;
+          align-items: center;
+      }
+      @media (max-width:1024px){
+        .collection-grid {
+            grid-template-columns: repeat(4,1fr);
+           gap:70px;
+        }
+      }
+      @media (max-width:800px){
+        .collection-grid {
+            grid-template-columns: repeat(3,1fr);
+           gap:50px;
+        }
+    }
+    @media (max-width:700px){
+        .collection-grid {
+            grid-template-columns: repeat(2,1fr);
+           gap:40px;
+        }
+    }
+    @media (max-width:500px){
+        .collection-grid {
+            grid-template-columns: repeat(1,1fr);
+           
+        }
+    }
+    </style>
+    <body>
+        <h1>media queries</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi eaque cumque consequatur nisi quo cum pariatur, veniam expedita, reiciendis voluptatem consectetur iusto ex facilis harum beatae debitis dicta. Iusto, necessitatibus?</p>
+         <div class="collection-grid">
+             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Sunflower_sky_backdrop.jpg/1200px-Sunflower_sky_backdrop.jpg" alt="img1">
+             <img src="https://www.swallowtailgardenseeds.com/flowers/sunflowers/sunflower-procut-white-lite.jpg" alt="img2">
+             <img src="https://cdn.pixabay.com/photo/2014/04/10/11/24/rose-320868__480.jpg" alt="img3">
+             <img src="https://m.media-amazon.com/images/I/41AaX6PYyML.jpg" alt="img4">
+             <img src="https://southernlivingplants.com/wp-content/uploads/How_To_Maximize_Gardenia_Blooms_1200x630.jpg" alt="1mg5">
+             <img src="https://images.unsplash.com/photo-1572085313466-6710de8d7ba3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z2FyZGVufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80" alt="img6">
+
+         </div>
+            </h1>
+        </div>
+    </body>
+</html>
