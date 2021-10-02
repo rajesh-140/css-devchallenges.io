@@ -6,9 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-   body {
-       background-color: darkgoldenrod;
-   }
+        .container {overflow: auto;}
+
+#main {margin-left: 4px;}
+
+#leftsidebar {
+  float: none;
+  width: auto;
+}
 
 #first {
   margin: 0;
@@ -23,23 +28,12 @@
   margin: 4px;
   padding: 2px;
 }
-@media (min-width:500px) {
-    body {
-        background-color: darkolivegreen;
-    }
-    #leftsidebar {
-        width:200px;
-        float:left;
-        }
-        #main {
-            margin-left: 216px;
-        }
+
+@media screen and (min-width: 480px) {
+  #leftsidebar {width: 200px; float: left;}
+  #main {margin-left: 216px;}
 }
-@media (min-width:800px){
-    body {
-        background-color: deeppink;
-    }
-}
+        </style>
     </style>
 </head>
 <body>
